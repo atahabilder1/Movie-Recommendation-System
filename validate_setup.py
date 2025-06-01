@@ -30,7 +30,7 @@ def check_required_packages() -> List[Tuple[bool, str]]:
     required_packages = [
         'pandas',
         'numpy',
-        'scikit-learn',
+        'sklearn',
         'nltk',
         'torch',
         'psutil'
