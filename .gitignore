@@ -20,6 +20,13 @@ models/
 *.pkl
 *.joblib
 
+# Results (keep structure but ignore large outputs)
+results/models/
+results/metrics/*.json
+results/metrics/*.csv
+# Keep figures for README
+!results/figures/
+
 # Logs
 *.log
 
